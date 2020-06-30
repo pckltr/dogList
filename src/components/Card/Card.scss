@@ -1,0 +1,27 @@
+.Card {
+    border-radius: 8px;
+    background: #ececec;
+    width: 300px;
+    padding: 1rem;
+    box-sizing: border-box;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    .details {
+        display: flex;
+        align-items: flex-start;
+        img {
+            object-fit: cover;
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+        }
+    }
+    .footer {
+        display: flex;
+        align-items: flex-start;
+        button {
+            margin-left: auto;
+        }
+    }
+}
